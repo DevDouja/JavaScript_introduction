@@ -91,8 +91,14 @@ set.clear();
 console.log(set);
 
 
+// with spread
+
+const uniqueNames = [...new Set(["lina","sara","miriam"])];
+console.log(uniqueNames);
 
 
+
+ 
 
 
 
